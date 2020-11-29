@@ -24,8 +24,8 @@ async function run() {
     }
 
     let res = await octokit.pulls.get({
-      owner: "anuraghazra",
-      repo: "github-readme-stats",
+      owner: "Aiueokashi",
+      repo: "githubStats",
       pull_number: pullRequestId,
       mediaType: {
         format: "diff",
@@ -44,8 +44,8 @@ async function run() {
 
     if (!colors) {
       await octokit.issues.createComment({
-        owner: "anuraghazra",
-        repo: "github-readme-stats",
+        owner: "Aiueokashi",
+        repo: "githubStats",
         body: `
         \rTheme preview (bot)
         Cannot create theme preview
@@ -62,11 +62,11 @@ async function run() {
     let iconColor = colors[1];
     let textColor = colors[2];
     let bgColor = colors[3];
-    const url = `https://github-readme-stats.vercel.app/api?username=anuraghazra&title_color=${titleColor}&icon_color=${iconColor}&text_color=${textColor}&bg_color=${bgColor}&show_icons=true`;
+    const url = `https://github-readme-stats.vercel.app/api?username=Aiueokashi&title_color=${titleColor}&icon_color=${iconColor}&text_color=${textColor}&bg_color=${bgColor}&show_icons=true`;
 
     await octokit.issues.createComment({
-      owner: "anuraghazra",
-      repo: "github-readme-stats",
+      owner: "Aiueokashi",
+      repo: "githubStats",
       body: `
       \rTheme preview (bot)  
       
