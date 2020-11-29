@@ -89,7 +89,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
   // Meta data for creating text nodes with createTextNode function
   const STATS = {
     stars: {
-      icon: "⭐",
+      icon: icons.star,
       label: i18n.t("statcard.totalstars"),
       value: totalStars,
       id: "stars",
