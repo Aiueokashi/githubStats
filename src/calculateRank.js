@@ -66,7 +66,7 @@ function calculateRank({
   let level = "";
 
   if (normalizedScore < RANK_S_VALUE) {
-    level = "♾";
+    level = "👑";
   }
   if (
     normalizedScore >= RANK_S_VALUE &&
