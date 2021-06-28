@@ -11,4 +11,4 @@ Self hosting : [github-readme-stats](https://github.com/anuraghazra/github-readm
 [![stats-card](https://aiueokashi.vercel.app/api?username=Aiueokashi&count_private=true&show_icons=true)](https://github.com/Aiueokashi/githubStats)<br>
 URL:`https://aiueokashi.vercel.app/api?username=Aiueokashi&count_private=true&show_icons=true`<br>
 **If you want count *private* repo's commits:**<br>
-fork and deploy on [vercel](vercel.com)
+fork [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and deploy on [vercel](vercel.com)
