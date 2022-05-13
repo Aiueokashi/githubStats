@@ -19,3 +19,5 @@ fork [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) a
 [![github-username-regex](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Aiueokashi/githubstats/master/package.json&label=github-username-regex&query=$['dependencies']['github-username-regex']&color=orange&logo=npm)](https://www.npmjs.com/package/github-username-regex)
 [![prettier](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Aiueokashi/githubstats/master/package.json&label=prettier&query=$['dependencies']['prettier']&color=orange&logo=npm)](https://www.npmjs.com/package/prettier)
 [![word-wrap](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Aiueokashi/githubstats/master/package.json&label=word-wrap&query=$['dependencies']['word-wrap']&color=orange&logo=npm)](https://www.npmjs.com/package/word-wrap)
+
+up
